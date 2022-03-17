@@ -35,8 +35,16 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 Para usar FlaskBlog, siga estas etapas:
 
 - Clone o repositório para sua máquina
-- Entre na pasta e execute este comando no Terminal
+- Crie um ambiente virtual
+```
+python -m venv env
+```
+- Instale as dependências do arquivo 
+```
+pip install -r requirements.txt
+```
 
+- Execute este comando no Terminal
 ```
 flask run
 ```
@@ -65,7 +73,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       <a href="#">
         <img src="https://avatars.githubusercontent.com/u/59846193?v=4" width="100px;" alt="Foto do Joel Paim no GitHub"/><br>
         <sub>
-          <b>Joel Paim</b>
+          <b>Joel Lisboa Paim</b>
         </sub>
       </a>
     </td>
@@ -73,12 +81,16 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 </table>
 
 
-## 😄 Seja um dos contribuidores<br>
+## 😄 Contato<br>
 
-Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
+Entre em contato comigo, vamos conversar.
+
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joellisboapaim/)
 
 ## 📝 Licença
 
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
+<p align="center">Copyright © 2022 Joel Lisboa Paim</p>
+
+
 
 [⬆ Voltar ao topo](#nome-do-projeto)<br>
