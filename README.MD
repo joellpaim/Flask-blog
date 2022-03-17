@@ -3,14 +3,14 @@
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/joellpaim/Flask-blog?style=for-the-badge&logo=appveyor)
-![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge&logo=appveyor)
-![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge&logo=appveyor)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge&logo=appveyor)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge&logo=appveyor)
+![GitHub language count](https://img.shields.io/github/languages/count/joellpaim/Flask-blog?style=for-the-badge&logo=appveyor)
+![GitHub forks](https://img.shields.io/github/forks/joellpaim/Flask-blog?style=for-the-badge&logo=appveyor)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/joellpaim/Flask-blog?style=for-the-badge&logo=appveyor)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/joellpaim/Flask-blog?style=for-the-badge&logo=appveyor)
 
 <img src="https://www.kindpng.com/picc/m/188-1882559_python-flask-hd-png-download.png" width="100px;" alt="Desenvolvido com Flask">
 
-> Um CRUD desenvolvido em Flask e SQLite, em aprimoramento constante.
+> Um CRUD desenvolvido em Flask e SQLite, em aprimoramento...
 
 ### Ajustes e melhorias
 
