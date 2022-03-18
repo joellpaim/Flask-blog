@@ -2,19 +2,31 @@
 
 {% block content %}
     <h1>{% block title %} Bem vindo ao FlaskBlog {% endblock %}</h1>
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 shadow-sm h-md-250" style="padding-top: 15px;">
-                      
-        {% for post in posts %} 
-            <div class="col border rounded overflow-hidden">
-                <a href="{{ url_for('post', post_id=post['id']) }}">
-                    <h2>{{ post['title'] }}</h2>
-                </a>
-                <span class="badge badge-primary">{{ post['created'] }}</span>
-                <a href="{{ url_for('edit', id=post['id']) }}">
-                    <span class="badge badge-warning">Editar</span>
-                </a>
-                <hr>
-            </div>        
-        {% endfor %}      
+    <div class="album py-5 bg-light">
+        <div class="container">    
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                            
+                {% for post in posts %} 
+                    
+                    <div class="col" style="padding: 5px;">
+                        <div class="card shadow-sm">
+                          
+              
+                            <div class="card-body">
+                                <a href="{{ url_for('post', post_id=post['id']) }}">
+                                    <h2>{{ post['title'] }}</h2>
+                                </a>
+                                <span class="badge badge-primary">{{ post['created'] }}</span>
+                                <a href="{{ url_for('edit', id=post['id']) }}">
+                                    <span class="badge badge-warning">Editar</span>
+                                </a>
+                                <hr>
+                            </div>
+
+                        </div>
+                    </div>
+                {% endfor %}      
+            </div>
+        </div>
     </div>
 {% endblock %}
