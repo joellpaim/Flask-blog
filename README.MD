@@ -8,7 +8,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/joellpaim/Flask-blog?style=for-the-badge&logo=appveyor)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/joellpaim/Flask-blog?style=for-the-badge&logo=appveyor)
 
-<img src="static/images/screen.png" width="200px;" alt="Desenvolvido com Flask">
+<img src="static/images/screen.png" width="800px;" alt="Desenvolvido com Flask">
 
 > Um CRUD desenvolvido em Flask e SQLite, em aprimoramento...
 
