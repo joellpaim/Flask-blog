@@ -6,9 +6,9 @@
 }
 .card-body{
     transition: all .5s;
-    border: 10px solid transparent;
+    border: 3px solid transparent;
 }
 .card-body:hover{
-    border: 2px solid #00fa68;
-    border-radius: 5%;
+    border: 6px solid #00fa68;
+    border-radius: 1%;
 }
