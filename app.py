@@ -81,3 +81,11 @@ def delete(id):
     conn.close()
     flash('"{}" foi deletado com sucesso!'.format(post['title']))
     return redirect(url_for('index'))
+
+@app.route('/contato')
+def contato():
+    return render_template('contato.html')
+
+@app.route('/sobre')
+def sobre():
+    return render_template('sobre.html')
