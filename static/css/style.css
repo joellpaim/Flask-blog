@@ -12,3 +12,6 @@
     border: 6px solid #00fa68;
     border-radius: 1%;
 }
+.pagina:hover{
+    color: aqua !important;
+}
